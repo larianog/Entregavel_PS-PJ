@@ -1,0 +1,135 @@
+h1{
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 62px;
+	color: #F5DEB3;
+	padding-left: 30px;
+	font-weight: lighter;
+}
+h2{
+	font-family: 'Philosopher', sans-serif;
+	font-size: 20px;
+	padding-left: 50px;
+	font-weight: lighter;
+	color: #FFDEAD;
+}
+#titulos{
+	direction: flex;
+	flex-direction: row;
+}
+html {
+	background-image: url("../img/background.jpg");
+}
+#cabeçalho{
+	width: 960px;
+	height: auto;
+	margin: auto;
+	background: #BD9875;
+	padding: 10px;
+}
+.content {
+	width: 980px;
+	margin: auto;
+
+	margin-top: 0px;
+	margin-bottom: 20px;
+	align-items: center;
+}
+.cafe {
+	width: 150px;
+	max-width: 100%;
+  	height: auto;
+}
+.cafe:hover{
+	transition: .5s ease;
+	opacity: 0.5;
+}
+#rodapé{
+	color: #DEB887;
+	margin: auto;
+	text-align: center;
+	font-weight: 500;
+	padding: 10px;
+	background-color: #574439;
+	background-size: cover;
+    background-position: center;
+}
+.imagens{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.preco{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Roboto, sans-serif;
+	color: #725947;
+}
+.texto{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+header{
+	color: white;
+	width: 100%;
+	height: 40%;
+	min-height: 250px;
+
+	background-image: url("../img/coffee.jpg");
+	background-size: cover;
+    background-position: center;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+body{
+	font-family: Roboto, sans-serif;
+}
+.strong{
+	color: #725947;
+}
+.strong:hover, .preco:hover{
+	transition: color 0.7s ease-out;
+	color: #C19240;
+}
+::selection {
+	background: #BD9875;
+	color: white;
+}
+.divTexts{
+	display: flex;
+	flex-direction: column;
+	margin-left: 40px;
+	justify-content: flex-start;
+}
+.elementos{
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	margin-top: 5px;
+	background-color: #e3e3e3;
+	width: 965px;
+}
+a:link, a:visited{
+	text-decoration: none;
+	color: #BD9875;
+}
+.contorno{
+	display: flex;
+	flex-direction: row;
+
+	margin-top: 40px;
+	background-color: #725947;
+	width: 980px;	
+}
+.layoutPreco{
+	width: 960px;
+	background-color: #e3e3e3;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-right: 20px;
+	margin-top: 5px; 
+}
