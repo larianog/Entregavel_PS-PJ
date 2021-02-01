@@ -22,7 +22,6 @@ function manipulateData(data, length){
 		var titleDescricao = document.createElement("p");
 
 		var theElement = document.getElementsByClassName("content")[0];
-		console.log(theElement);
 
 		theElement.appendChild(divContorno);
 		divContorno.appendChild(divPreco);
@@ -97,7 +96,6 @@ const getData = (link) => {
 
 	xhr.onload = () => {
 		const data = xhr.response;
-		console.log(data);
 		manipulateData(data, data.length);
 	}
 	
